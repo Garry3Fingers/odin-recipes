@@ -4,15 +4,73 @@ img {
 }
 
 .link-text {
-  font-family: Georgia, Verdana, serif;
-  font-size: 30px;
+  font-family: "Brush Script MT", cursive;
+  font-size: 20px;
   font-weight: bold;
 }
 
+.main {
+  font-size: 30px;
+}
+
 h1 {
-  font-family: "Times New Roman", serif;
   font-size: 40px;
   color: rgba(0, 0, 0, 1);
   background-color: rgba(247, 203, 25, 0.59);
+}
+
+h1,
+h2 {
   text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Times New Roman", serif;
+}
+
+ .curry-header {
+  color: rgba(250, 250, 250, 1);
+  background-color: rgba(235, 139, 30, 0.86);
+ }
+
+ h2 {
+  font-size: 30px;
+ }
+
+ p {
+  font-family: Georgia, Verdana, serif;
+ }
+
+ p,
+ .ingredients,
+ .directions {
+  font-size: 26px;
+ }
+
+ h3 {
+  color: rgba(27, 6, 145, 0.87);
+  font-size: 28px;
+ }  
+
+.ingredients {
+  color: rgba(36, 242, 95, 0.94);
+}
+.directions {
+  color: rgba(217, 37, 187, 0.98);
+}
+
+.directions,
+.ingredients {
+  font-weight: 600;
+}
+.fact {
+  background-color: rgba(150, 96, 108, 0.65);
+}
+
+.directions ol {
+  font-family: Tahoma, sans-serif;
+  font-size: 25px;
+  color: rgba(66, 28, 23, 0.81);
 }
