@@ -1,0 +1,18 @@
+img {
+  height: auto;
+  width: 800px;
+}
+
+.link-text {
+  font-family: Georgia, Verdana, serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(247, 203, 25, 0.59);
+  text-align: center;
+}
