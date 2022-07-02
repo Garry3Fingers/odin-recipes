@@ -24,10 +24,19 @@ h2 {
   text-align: center;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 h1,
 h2,
 h3 {
   font-family: "Times New Roman", serif;
+}
+
+h3 {
+  color: rgba(27, 6, 145, 0.87);
+  font-size: 28px;
 }
 
  .curry-header {
@@ -35,24 +44,31 @@ h3 {
   background-color: rgba(235, 139, 30, 0.86);
  }
 
- h2 {
-  font-size: 30px;
+ .vietnam-header {
+   color: rgba(255, 225, 0, 0.98);
+   background-color: rgba(240, 12, 16, 0.99);
+ }
+
+ .mexico-header {
+  color: rgba(252, 204, 204, 1);
+  background-color: rgba(0, 99, 40, 0.68);
  }
 
  p {
   font-family: Georgia, Verdana, serif;
  }
 
- p,
- .ingredients,
- .directions {
-  font-size: 26px;
+ .fact {
+   background-color: rgba(150, 96, 108, 0.65);
  }
 
- h3 {
-  color: rgba(27, 6, 145, 0.87);
-  font-size: 28px;
- }  
+ p,
+ dt,
+ dd,
+ .ingredients,
+ .directions {
+  font-size: 27px;
+ }
 
 .list,
 .ingredients {
@@ -62,12 +78,10 @@ h3 {
   color: rgba(217, 37, 187, 0.98);
 }
 
+dt,
 .directions,
 .ingredients {
   font-weight: 600;
-}
-.fact {
-  background-color: rgba(150, 96, 108, 0.65);
 }
 
 .directions ol {
@@ -76,12 +90,15 @@ h3 {
   color: rgba(66, 28, 23, 0.81);
 }
 
-.vietnam-header {
-  color: rgba(255, 225, 0, 0.98);
-  background-color: rgba(240, 12, 16, 0.99);
-}
-
 .list {
   font-family: Arial, sans-serif;
   font-size: 24px;
+}
+
+dt {
+  color: rgba(16, 117, 194, 1);
+}
+
+dd {
+  color: rgba(158, 46, 48, 1);
 }
